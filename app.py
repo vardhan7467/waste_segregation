@@ -255,7 +255,7 @@ if uploaded_file:
     col1, col2 = st.columns([1, 1])
 
     with col1:
-        st.image(image, caption="Uploaded Waste Image", use_container_width=True)
+        st.image(image, caption="Uploaded Waste Image", use_column_width=True)
 
     with col2:
         if st.button("Analyze Waste"):
